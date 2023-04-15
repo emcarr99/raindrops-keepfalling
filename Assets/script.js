@@ -1,3 +1,17 @@
-url: "https://api.openweathermap.org/data/2.5/weather?q=" +
-  cityName +
-  "&units=imperial&appid=cb32126a8e0dc1a5be8e3ad121f71997";
+$(document).ready(function () {
+  // function that prevents just empty page on load
+ let currentDay = dayjs().format('MMM DD, YYYY')
+//  console.log(currentDay); <- logged the current day
+
+// function to have default city load 
+function defaultC() {
+  cityName = "Austin"
+  findCity();
+}
+defaultC();
+
+let cityHistory = JSON.parse(localStorage)
+
+
+
+});

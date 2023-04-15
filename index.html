@@ -23,6 +23,7 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.7/dayjs.min.js"></script>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
@@ -35,32 +36,32 @@
         <section class="city-search">
           <h2>Search for a City:</h2>
           <form class="input">
-            <input id="city-name" type="text" placeholder="Enter City Name" />
-            <input id="get-results" type="submit" />
+            <input id="cityName" type="text" placeholder="Enter City Name" />
+            <input id="getResults" type="submit" />
           </form>
         </section>
         <hr />
         <section class="past-cities">
-          <ul id="stored-cities"></ul>
+          <ul id="savedCities"></ul>
           <button id="clear">Clear Past Cities</button>
         </section>
       </aside>
       <main>
         <section class="display-current-city">
           <div class="text">
-            <div class="current-title">
-              <h2 id="current-name"></h2>
-              <h2 id="current-date"></h2>
+            <div class="currentTitle">
+              <h2 id="currentName"></h2>
+              <h2 id="currentDay"></h2>
             </div>
             <div id="icon"></div>
-            <h4 id="current-temp"></h4>
+            <h4 id="currentTemp"></h4>
             <h4 id="humidity"></h4>
             <h4 id="wind"></h4>
           </div>
         </section>
-        <section class="forcast">
+        <section class="forecast">
           <h2>5-Day Forecast:</h2>
-          <div class="weather-cards">
+          <div class="weatherCards">
             <!--empty divs for 5-day forcast-->
             <div class="cards"></div>
             <div class="cards"></div>

@@ -46,3 +46,13 @@ header > h1 {
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
+
+aside, main #stored-cities {
+  margin: 0 10px;
+}
+
+.city-search, .input, #stored-cities, .past-cities {
+  display: flex;
+  flex-direction: column;
+}
+
