@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="path/to/bootstrap.min.css" />
+    <link rel="stylesheet" href="Assets/style.css" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center">Weather Forecast</h1>
+    </header>
+    <section>
+      <aside>
+        <section class="search-city">
+          <h2>Where are you?</h2>
+          <form class="input">
+            <input id="city-name" type="text" placeholder="Enter City Name" />
+            <input id="get-results" type="submit" />
+          </form>
+        </section>
+        <hr>
+        <section class="city-history">
+          <ul id="citySaved"></ul>
+          <button id="clear">Clear Past Cities</button>
+        </section>
+      </aside>
+      <main>
+      
+      </main>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="Assets/script.js"></script>
+  </body>
+</html>
