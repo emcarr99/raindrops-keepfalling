@@ -1,0 +1,48 @@
+:root {
+    --light: #fdfdff;
+    --pale: #cbccd3;
+    --dark: #393E41;
+    --stormy: #678596;
+    --deep: #152842;
+}
+
+main, .l-r {
+  background-color: var(--light);
+  margin: 10px;
+  font-family: 'Crimson Text', serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 19px;
+}
+
+h4, .city-li, [type="submit"] {
+  font-size: 1.4rem;
+}
+
+p, #clear {
+  font-size: 1.1rem;
+}
+
+header {
+  display: flex;
+  background-color: var(--deep);
+  box-shadow: 1px 2px 2px var(--stormy);
+  margin: 4px;
+  border-radius: 10px;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+header > h1 {
+  font-size: 4rem;
+  color: var(--light);
+  font-weight: 500;
+}
+
+.l-r {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
